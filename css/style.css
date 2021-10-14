@@ -1,0 +1,15 @@
+.logIn{
+    border: 2px solid red;
+    text-align: center;
+    padding: 100px 0;
+    width: 400px;
+    height: 70vh;
+}
+
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
