@@ -1,25 +1,56 @@
 /*Colors
-Purple - #CA88F4 
+Purple - #CEA8F2
 Beige - #F1F3D6
+Bone - #D6D6BF
 Green - #006734
 Charcoal - #474A45
 Orange - #F46517
 */
 
 body{
-    background-color: #F1F3D6;
     text-align: center;
 }
 
+h1, h3{
+    font-family: 'DM Serif Display'
+}
+
+.phone{
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #F1F3D6;
+    width: 768px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#logo{
+    float: left;
+    height: 60px;
+}
+
 .underline{
-    background-color:#CA88F4;
+    background-color: #CEA8F2;
     margin-top: -25px;
     height: 20px;
+}
+
+.mainCard{
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 25px;
+    padding: 10px;
 }
 
 .header{
     width: fit-content;
     margin: auto;
+}
+
+.title{
+    text-align: left;
 }
 
 .dot {
@@ -29,3 +60,15 @@ body{
     border-radius: 50%;
     display: inline-block;
   }
+
+.profiles{
+    background-color: #D6D6BF;
+}
+
+.questions{
+    background-color: #D6D6BF;
+}
+
+.carousel-item img{
+    height: 300px;
+}
