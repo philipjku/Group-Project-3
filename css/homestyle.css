@@ -6,12 +6,20 @@ Charcoal - #474A45
 Orange - #F46517
 */
 
-.logIn{
-    border: 2px solid red;
+body{
+    background-color: #F1F3D6;
     text-align: center;
-    padding: 100px 0;
-    width: 400px;
-    height: 70vh;
+}
+
+.underline{
+    background-color:#CA88F4;
+    margin-top: -25px;
+    height: 20px;
+}
+
+.header{
+    width: fit-content;
+    margin: auto;
 }
 
 .dot {
