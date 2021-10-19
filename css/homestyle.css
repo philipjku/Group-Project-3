@@ -19,36 +19,16 @@ h1, h3{
     border: 2px solid black;
     border-radius: 25px;
     background-color: #F1F3D6;
-<<<<<<< Updated upstream
     width: 768px;
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 2%;
     margin-bottom: 2%;
-=======
-    width: 512px;
-    margin:auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-.botNav{
-    position: sticky;
-    bottom: 0;
-    margin-left: -12px;
-    height: 100px;
-    width: 510px;
-    z-index: +2;
->>>>>>> Stashed changes
 }
 
 #logo{
     float: left;
-    height: 40px;
-}
-
-#nopro{
-    float: right;
+    height: 60px;
 }
 
 .underline{
@@ -57,11 +37,8 @@ h1, h3{
     height: 20px;
 }
 
-.space{
-    height:30px;
-}
-
 .mainCard{
+    border: 2px solid black;
     margin: 20px;
     border-radius: 25px;
     padding: 10px;
@@ -76,10 +53,6 @@ h1, h3{
     text-align: left;
 }
 
-.nav-link img{
-    height: 70px;
-}
-
 .dot {
     height: 50px;
     width: 50px;
@@ -92,28 +65,8 @@ h1, h3{
     background-color: #D6D6BF;
 }
 
-<<<<<<< Updated upstream
 .questions{
     background-color: #D6D6BF;
-=======
-.events{
-    background-color: #474A45;
-}
-
-.remind{
-    text-align: left;
-}
-
-.form-select, .form-control{
-    border-radius: 50px !important;
-    margin-top: 10px;
-}
-
-.btn, .btn-primary:focus{
-    border-radius: 50px;
-    background-color: #006734;
-    border-color: #006734;
->>>>>>> Stashed changes
 }
 
 .carousel-item img{
