@@ -1,0 +1,136 @@
+/*Colors
+Purple - #CEA8F2
+Beige - #F1F3D6
+Bone - #D6D6BF
+Green - #006734
+Charcoal - #474A45
+Orange - #F46517
+*/
+
+body{
+    text-align: center;
+}
+
+h1, h3{
+    font-family: 'DM Serif Display';
+}
+
+.phone{
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #F1F3D6;
+    width: 768px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 512px;
+    margin:auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.botNav{
+    position: sticky;
+    bottom: 0;
+    margin-left: -12px;
+    height: 100px;
+    width: 510px;
+    z-index: +2;
+}
+
+#logo{
+    float: left;
+    height: 40px;
+}
+
+#nopro{
+    float: right;
+}
+
+.underline{
+    background-color: #CEA8F2;
+    margin-top: -25px;
+    height: 20px;
+}
+
+.space{
+    height:30px;
+}
+
+.mainCard{
+    margin: 20px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.header{
+    width: fit-content;
+    margin: auto;
+}
+
+.title{
+    text-align: left;
+}
+
+.nav-link img{
+    height: 70px;
+}
+
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.profiles{
+    background-color: #006734;
+    text-align: left;
+}
+
+.profiles img{
+    float: right;
+}
+
+.protext{
+    color: white;
+}
+
+.questions{
+    background-color: #D6D6BF;
+}
+
+.events{
+    background-color: #474A45;
+}
+
+.about{
+    background-color: white;
+    border: 10px solid #006734;
+}
+
+.remind{
+    text-align: left;
+}
+
+.form-select, .form-control{
+    border-radius: 50px !important;
+    margin-top: 10px;
+}
+
+.btn, .btn-primary:focus{
+    border-radius: 50px;
+    background-color: #006734;
+    border-color: #006734;
+}
+
+.carousel-item img{
+    height: 300px;
+}
+
+.pencil{
+    float: right;
+    margin: 10px;
+}

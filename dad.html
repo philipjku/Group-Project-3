@@ -6,44 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="css/homestyle.css" rel="stylesheet">
+    <link href="css/dadstyle.css" rel="stylesheet">
     <title>Home</title>
   </head>
   <body>
       <div class="container phone">
         <img src="images/iphonestatus.png">
         <div>
-          <img id="logo" src="images/Logo.png">
+          <a href="home.html"><img id="logo" src="images/Logo.png"></a>
           <img id="nopro" src="images/noproicon.png">
         </div>
         <div class="header">
-          <h1>Home</h1>
+          <h1>Dad</h1>
         <div class="underline"></div>
         </div>
         <div class="space"></div>
         <!--Profile Start-->
-        <h3 class="title">My Profiles</h3>
           <div id="proBox" class="profiles mainCard">
-              <ul class="nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"><img src="images/michelle.png"><p>Michelle</p></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><img src="images/sam.png"><p>Sam</p></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="dad.html"><img src="images/dad.png"><p>Dad</p></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><img src="images/nicole.png"><p>Nicole</p></a>
-                </li>
-              </ul>
+            <div class="protext">
+              <img src="images/dad.png">
+              <h4>Important Dates</h4>
+              <p>Birthday: June 1, 1959</p>
+              <h4>Other</h4>
+              <p>Retirement Celebration: November 22, 2021</p>
+              <h4>Contact</h4>
+              <p>Phone: (999) 789-7892</p>
+              <img class="pencil" src="images/pencil.png">
+              <p>Email: jamessmith@gmail.com</p>
             </div>
+          </div>
         <!--Profile End-->
         <!--Events Start-->
         <h3 class="title">Upcoming Events</h3>
       <div class="events mainCard">
-        <div>
           <div class="container overflow-hidden">
             <div class="row gy-5">
               <div class="col-4">
@@ -58,46 +53,16 @@
                     Details: 4pm at Legends Grill</p>
                 </div>
               </div>
-              <div class="col-4">
-                <div class="p-3 border bg-light rounded">
-                  <h3>NOV</h3><h1>18</h1>
-                  <div class="underline"></div>
-                </div>
-              </div>
-              <div class="col-8">
-                <div class="p-3 border bg-light rounded"><strong>Thanksgiving Office Party</strong>
-                  <p class="remind">Reminders: Bring 3 pies and 1 take-home gift.</p>
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="p-3 border bg-light rounded">
-                  <h3>DEC</h3><h1>08</h1>
-                  <div class="underline"></div>
-                </div>
-              </div>
-              <div class="col-8">
-                <div class="p-3 border bg-light rounded"><strong>Family Secret Santa Party</strong>
-                  <p class="remind">Reminders: Bring gift for Sam.
-                    Grandma's at 4PM.
-                  </p>
-                </div>
-              </div>
             </div>
+            <img class="pencil" src="images/pencil.png">
           </div>
-        </div>
       </div>
       <!--Events End-->
       <!--Question Start-->
       <h3 class="title">Question of the Week</h3>
       <div class="questions mainCard">
             <div class="card-body">
-              <p class="card-text text-start fw-bold">Pick a person. <span style="color: #006734">Ask a question.</span> Submit the answer. <span style="color:#006734">Connect!</span></p>
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Pick a Person</option>
-                <option value="1">Michelle</option>
-                <option value="2">Sam</option>
-                <option value="3">Dad</option>
-              </select>
+              <p class="card-text text-start fw-bold">Ask a question.</span> Submit the answer. <span style="color:#006734">Connect!</span></p>
               <select class="form-select" aria-label="Default select example">
                 <option selected>Select a question</option>
                 <option value="1">What soundtrack are they listening to?</option>
@@ -111,6 +76,21 @@
             </div>
       </div>
       <!--Question End-->
+      <!--About Start-->
+      <h3>Stuff About Dad</h3>
+      <div class="about mainCard">
+        <div class="card-body text-start">
+          <u><h4>Favorite Book:</h4>
+          <p>Dune by Frank Herbert</p>
+          <h4>Favorite Song:</h4>
+          <p>Here Comes the Sun by the Beatles</p>
+          <h4>Favorite way to relax:</h4>
+          <p>Lounging outside with a beer</p>
+          <h4>Favorite memory with me:</h4>
+          <p>Teaching me how to ride a bike</p></u>
+        </div>
+      </div>
+      <!--About End-->
       <!--Carousel Start-->
         <h3 class="title">Gift Ideas</h3>
       <div class="card mainCard">
@@ -142,8 +122,8 @@
           </div>
           <div class="card-body">
             <div class="card-text">
-              <h2>Trending Travel Gifts 2021</h2>
-              View the top travel gifts for 2021.
+              <h2>Gift Ideas for Dad</h2>
+              Dad loves beer, the outdoors, the Beatles, and reading the classics. Check out some gifts he may love.
             </div>
             <a href="#" class="btn btn-primary">See Gifts</a>
           </div>
