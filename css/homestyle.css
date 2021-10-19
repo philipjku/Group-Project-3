@@ -89,12 +89,24 @@ h1, h3{
     background-color: #D6D6BF;
 }
 
+.profiles img{
+    float: right;
+}
+
+.profiles a{
+    color:#474A45;
+}
+
 .questions{
     background-color: #D6D6BF;
 }
 
 .events{
     background-color: #474A45;
+}
+
+.events img{
+    float: right;
 }
 
 .remind{
