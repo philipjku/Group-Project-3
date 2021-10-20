@@ -6,18 +6,195 @@ Charcoal - #474A45
 Orange - #F46517
 */
 
-.logIn{
-    border: 2px solid red;
-    text-align: center;
-    padding: 100px 0;
-    width: 400px;
-    height: 70vh;
+body {
+    font-family: 'DM Serif Display', serif;
+    color: #474A45;
 }
 
-.dot {
-    height: 50px;
-    width: 50px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-  }
+.background-img {
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-color: #006734;
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 40px;
+    text-align: center;
+    padding: 100px 0px 0px;
+    width: 414px;
+    height: auto;
+    background-color: #006734;
+    color: #474A45;
+    font-family: 'DM Serif Display', serif;   
+}
+
+.hometag1 {
+    padding: 15%;
+    color: #ffffff; 
+    background-color: #006734;
+    font-family: 'DM Serif Display', serif;
+    font-size: 18px;   
+}
+
+.hometag2 {
+    padding: 2%;
+    color: #ffffff; 
+    background-color: #006734;
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    font-style: italic;
+    }
+
+.hometag3 {
+    padding: 2%;
+    color: #ffffff; 
+    background-color: #006734;
+    font-family: 'DM Serif Display', serif;
+    font-size: 28px;
+    font-style: italic;
+}
+
+a {
+    color: #ffffff;
+    justify-content: space-around;
+    font-family: 'DM Serif Display', serif;
+    text-decoration: underline;
+    padding: 5%;
+}
+
+.arrowBox{
+    height: 100px;
+}
+.scroll{
+    height: 1000px;
+}
+
+#scroll2{
+    background-image: linear-gradient(#006734, #F1F3D6);
+}
+
+.splash2{
+    background-color: #F1F3D6;
+    padding: 200px 0px;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.splash2 a{
+    color: #474A45;
+    font-weight: bold;
+}
+
+#splash2Img{
+    padding-bottom: 100px;
+}
+
+
+/* set arrow positioning */
+.arrow {
+	width: 60px;
+	height: 82px;
+	position: relative; /* don't forget set container to relative */
+	margin-left: 0px;
+	bottom: 5%;
+    z-index:999;
+}
+/* set arrow styles */
+.arrow path {
+	stroke: #F1F3D6;
+	stroke-width: 2px;
+	fill: transparent;	
+	animation: down 2s infinite;
+}
+/* arrow keyframe animation */
+@keyframes down{
+0% { opacity:0 }
+25% { opacity:1 }
+75% { opacity:0 }
+100% { opacity:0 }
+}
+
+/* arrow animation delay */
+.arrow path.a1{	animation-delay:-1s; }
+.arrow path.a2{	animation-delay:-.5s; }
+.arrow path.a3{	animation-delay:0s; }
+
+/* ARROW B */
+.arrowB {
+	width: 60px;
+	height: 82px;
+	position: relative; /* don't forget set container to relative */
+	margin-left: 0px;
+    top: 20%;
+    z-index:999;
+}
+/* set arrow styles */
+.arrowB path {
+	stroke: #F1F3D6;
+	stroke-width: 2px;
+	fill: transparent;	
+	animation: down 2s infinite;
+}
+/* arrow keyframe animation */
+@keyframes down{
+0% { opacity:0 }
+25% { opacity:1 }
+75% { opacity:0 }
+100% { opacity:0 }
+}
+/* arrow animation delay */
+.arrowB path.aB1{	animation-delay:-1s; }
+.arrowB path.aB2{	animation-delay:-.5s; }
+.arrowB path.aB3{	animation-delay:0s; }
+
+
+
+/*splash animation*/
+@-moz-keyframes 
+fade-it { 0% {
+opacity:0
+}
+100% {
+opacity:1
+}
+}
+
+@-webkit-keyframes 
+fade-it { 0% {
+opacity:0
+}
+100% {
+opacity:1
+}
+}
+
+@keyframes 
+fade-it { 0% {
+opacity:0
+}
+100% {
+opacity:1
+}
+}
+
+.js-fade-in-verb {
+  animation-name: fade-it;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: fade-it;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards
+}
+
+.verb.js-block { display: inline-block }
+
+.verb.js-hide {
+  display: none;
+  opacity: 0x
+}
+
+.verb {
+  display: inline-block;
+  visibility: visible;
+ 
+}
