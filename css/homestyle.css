@@ -9,6 +9,8 @@ Orange - #F46517
 
 body{
     text-align: center;
+    font-family: 'Nunito', 'sans-serif';
+    font-weight: bold;
 }
 
 h1, h3{
@@ -77,6 +79,12 @@ h1, h3{
     height: 70px;
 }
 
+#add{
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+}
+
 .dot {
     height: 50px;
     width: 50px;
@@ -126,4 +134,8 @@ h1, h3{
 
 .carousel-item img{
     height: 300px;
+}
+
+#pencil{
+    margin: 10px;
 }

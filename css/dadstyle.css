@@ -9,6 +9,8 @@ Orange - #F46517
 
 body{
     text-align: center;
+    font-family: 'Nunito', 'sans-serif';
+    font-weight: bold;
 }
 
 h1, h3{
@@ -86,8 +88,9 @@ h1, h3{
   }
 
 .profiles{
-    background-color: #006734;
+    background-color:white;
     text-align: left;
+    border: 10px solid #006734;
 }
 
 .profiles img{
@@ -95,7 +98,7 @@ h1, h3{
 }
 
 .protext{
-    color: white;
+    color: #474A45;
 }
 
 .questions{
