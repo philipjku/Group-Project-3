@@ -1,0 +1,110 @@
+body {
+    font-family: 'DM Serif Display', serif;
+    background-color: #f1f3d6
+    color: #474A45
+    
+    }
+    h1 {
+        font-weight: bold;
+        color: #474A45;
+        background-color: #f1f3d6;
+        text-decoration: underline #C08EEE;
+        font-family: 'DM Serif Display', serif;
+    }
+
+    h2 {
+        font-size: 15px;
+        color: #474A45;
+        background-color: #f1f3d6;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    h3 {
+        font-weight: bold;
+        font-size: 15px;
+        color: #474A45;
+        background-color: #f1f3d6;
+        font-family: 'Nunito', sans-serif;}
+
+    .container {
+        border: 2px solid black;
+        border-radius: 40px;
+        text-align: center;
+        padding: 100px 0;
+        width: 414px;
+        height: 896px;
+        background-color: #f1f3d6 ;
+        color: #474A45;
+        font-family: 'DM Serif Display', serif;
+    }
+    
+    }
+    
+    #rcorners2 {
+        border-radius: 20px;
+        border: 2px solid #474A45;
+        padding: 20px;
+        width: 300px;
+        height: 50px;
+      }
+    
+      #floatingInput {
+        border-radius: 20px;
+        border: 2px solid #474A45;
+        padding: 20px;
+        width: 300px;
+        height: 50px;
+        font-family: 'Nunito', sans-serif;
+        background-color: #f1f3d6;
+    
+      }
+    
+      #floatingPassword {
+        border-radius: 20px;
+        border: 2px solid #474A45;
+        padding: 20px;
+        width: 300px;
+        height: 50px;
+        background-color: #f1f3d6;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+      }
+     
+      .btn{
+        width: 300px;
+        height: 50px;
+        padding: 20px;
+        background-color: #f1f3d6;
+        border-radius: 20px;
+        color: #474A45;
+        text-decoration: underline #C08EEE;
+        font-family: 'Nunito', sans-serif;
+      
+      }
+    
+      a {
+        color: #474A45;
+        justify-content: space-around;
+        font-family: 'Nunito', sans-serif;
+      
+      }
+
+      .form-floating {
+        text-align: center;
+        background-color: #f1f3d6 ;
+        color: #474A45;
+        font-family: 'Nunito', sans-serif;
+     
+      }
+
+      .form-control {
+          justify-content: center;
+          margin: auto;
+      }
+
+      .placehodler { 
+        justify-content: center;
+        margin: auto;
+
+      }
+      
