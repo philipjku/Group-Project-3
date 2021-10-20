@@ -75,6 +75,7 @@ h3 {
   height: 50px;
   background-color: #f1f3d6;
   border-radius: 20px;
+  border: 2px solid #474A45;
   color: #474A45;
   font-family: 'Nunito', sans-serif;
 }
@@ -88,15 +89,17 @@ a {
 
 .form-floating {
   text-align: center;
-  background-color: #f1f3d6 ;
-  color: #474A45;
-  font-family: 'Nunito', sans-serif;
-
 }
 
 .form-control {
   justify-content: center;
   margin: auto;
+  background-color: #f1f3d6 ;
+  border: solid #474A45;
+  border-width: 2px 2px 0px 2px;
+  border-radius: 0px;
+  color: #474A45;
+  font-family: 'Nunito', sans-serif;
 }
 
 .placehodler { 
@@ -130,4 +133,33 @@ a {
   background-color: #CEA8F2;
   margin-top: -15px;
   height: 10px;
+}
+
+.colRight{
+  padding-right: 0px;
+}
+
+.colLeft{
+  padding-left: 0px;
+}
+
+.formRight{
+  border-left: 1px solid #474A45;
+}
+
+.formLeft{
+  border-right: 1px solid #474A45;
+}
+
+.formTopleft{
+  border-top-left-radius: 20px;
+}
+
+.formTopright{
+  border-top-right-radius: 20px;
+}
+
+.formBot{
+  border-bottom: 2px solid #474A45;
+  border-radius: 0px 0px 20px 20px;
 }
