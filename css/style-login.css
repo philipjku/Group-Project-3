@@ -82,6 +82,10 @@ a{
   height: 20px;
 }
 
+.options{
+  margin-top: 10px;
+}
+
 #uPass{
   width: 300px;
   margin: auto;
@@ -100,4 +104,9 @@ a{
   width: 60px;
   position: relative;
   top: 400px;
+}
+
+#status{
+  position: relative;
+  right: 15px;
 }
